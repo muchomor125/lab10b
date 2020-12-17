@@ -1,2 +1,2 @@
 FROM ubuntu
-RUN ["/bin/bash", "-c", "wersja 2"]
+RUN echo "wer2"
