@@ -1,2 +1,2 @@
-FROM ubuntu
-RUN echo "wer2"
+FROM nginx:1.14.2
+RUN echo "wer1"
