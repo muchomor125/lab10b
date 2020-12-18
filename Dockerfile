@@ -1,2 +1,3 @@
 FROM nginx:1.14.2
-RUN echo "wer1"
+RUN chmod +x wer2.sh
+RUN wer2.sh
