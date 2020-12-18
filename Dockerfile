@@ -1,3 +1,4 @@
 FROM nginx:1.14.2
-RUN chmod +x wer2.sh
+COPY . /
+WORKDIR /
 RUN wer2.sh
